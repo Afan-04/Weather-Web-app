@@ -1,0 +1,119 @@
+/* Center container on screen */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eef2f5;
+  background-image: linear-gradient(135deg, #00d49c, #5b548a);
+  backdrop-filter: blur(10px);
+}
+
+/* Main container */
+.container {
+  width: 360px;
+  height: 220px;
+  background-image: linear-gradient(-45deg, #178edd, #efff63b1);
+  /* background: rgba(168, 14, 220, 0.329); */
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgb(0, 0, 0);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* space between content & bottom */
+  padding: 20px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+}
+
+.search input {
+  padding: 10px;
+  border: 2px solid #bcbcbc;
+  border-radius: 20px;
+  outline: none;
+  width: 200px;
+  font-size: 16px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+}
+
+.search button {
+  padding: 15px 20px;
+  background-color: #e5e8e5;
+  color: white;
+  border: 2px solid #e5e8e5;
+  border-radius: 100%;
+  cursor: pointer;
+  margin: 0px;
+}
+
+/* Centered header + subtext */
+.content {
+  text-align: center;
+  font-size: 24px;
+  color: #0db9ee;
+
+}
+
+.title {
+
+  background: linear-gradient(-45deg, #d6ff30, #01aff4);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.5px black;
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #0703768a;
+  margin: 5px 0 0;
+}
+
+/* Bottom section */
+.bottom {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+.w-icon {
+  height: 75px;
+  width: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -17px; 
+  margin-bottom: -15px;
+}
+.wind-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; 
+  margin-left: 10px;
+}
+.feels-like-icon {
+  height: 40px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+      margin-top: 20px;
+    margin-left: 14px;
+}
+.search-icon {
+  height: 25px;
+  width: 25px;
+}

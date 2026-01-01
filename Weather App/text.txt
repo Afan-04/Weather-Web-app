@@ -1,0 +1,3 @@
+temp_c.innerHTML  = response.temp_c
+wind_kph.innerHTML = response.wind_kph
+feelslike_c.innerHTML  = response.feelslike_c
